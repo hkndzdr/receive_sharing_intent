@@ -25,7 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    namespace = "com.zt.shareintent"
+    namespace 'com.zt.shareintent'
     compileSdkVersion 30
 
     sourceSets {
